@@ -1,0 +1,30 @@
+---
+# KygekExamplePlugin plugin configuration file
+# Plugin by KygekTeam
+
+#######################
+
+# Whether to enable broadcast message when a player chats
+# Default: true
+enabled: true
+
+# Whether to use KygekExamplePlugin prefix in broadcast message
+# Default: true
+use-prefix: true
+
+# Delay broadcast since a player chats in seconds (Assuming the server runs on 20 TPS)
+# Default: 1 second
+delay: 1
+
+# Broadcast message when a player chats
+# Use & as text formatting codes
+# Variables: $player = Player name; $seconds = Delay in seconds
+# Default broadcast message will be used if empty
+message: ""
+
+
+##### DANGER ZONE #####
+# Do not change this (Only for internal use)!
+config-version: "1.0"
+#######################
+...

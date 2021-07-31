@@ -5,6 +5,7 @@ branches:
 projects:
   KygekExamplePlugin:
     path: ""
-     - src: KygekTeam/ktpmpl-cfs/ktpmpl-cfs
+    libs:
+    - src: KygekTeam/ktpmpl-cfs/ktpmpl-cfs
       version: ^1.0
 ...

@@ -8,4 +8,6 @@ projects:
     libs:
     - src: KygekTeam/ktpmpl-cfs/ktpmpl-cfs
       version: ^1.0
+    lint:
+      syntaxError: false
 ...

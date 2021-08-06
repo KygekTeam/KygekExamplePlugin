@@ -5,7 +5,7 @@
 
 > **WARNING:** This plugin will only work on PocketMine-MP servers using PHP 8.0 or newer.
 
-An example PocketMine-MP plugin to show coding styles of KygekTeam plugins. This plugin will never be released on Poggit as it only serves as an example plugin.
+An example PocketMine-MP plugin to show coding styles of KygekTeam plugins and as example plugin for PocketMine-MP. This plugin will never be released on Poggit as it only serves as an example plugin.
 
 ## ❓ Why This Plugin Exists
 
@@ -49,7 +49,7 @@ You can request for a feature to be added in a future update [here](https://gith
 
 ## ➕ Additional Info
 
-KygekExamplePlugin is a example plugin by KygekTeam and licensed under **GPL-3.0**.
+KygekExamplePlugin is an example plugin by KygekTeam and licensed under **GPL-3.0**.
 
 - Join our Discord server [here](https://discord.gg/CXtqUZv) for latest news and support from KygekTeam.
 - If you found bugs or want to give suggestions, please visit [here](https://github.com/KygekTeam/KygekExamplePlugin/issues) or join our Discord server.

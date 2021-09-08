@@ -3,7 +3,7 @@
 [![Poggit CI](https://poggit.pmmp.io/ci.shield/KygekTeam/KygekExamplePlugin/~)](https://poggit.pmmp.io/ci/KygekTeam/KygekExamplePlugin/~)
 [![Discord](https://img.shields.io/discord/735439472992321587.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/CXtqUZv)
 
-> **WARNING:** This plugin will only work on PocketMine-MP servers using PHP 8.0 or newer.
+**PM4 BRANCH WARNING: This plugin branch is currently under development. There might be some major bugs. If you found one, please [submit an issue](https://github.com/KygekTeam/KygekExamplePlugin/issues).**
 
 An example PocketMine-MP plugin to show coding styles of KygekTeam plugins and as example plugin for PocketMine-MP. This plugin will never be released on Poggit as it only serves as an example plugin.
 

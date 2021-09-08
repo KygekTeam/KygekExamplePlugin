@@ -31,7 +31,7 @@ class ExamplePlugin extends PluginBase implements Listener {
 
     private bool $isEnabled;
 
-    public function onEnable() {
+    public function onEnable() : void {
         $this->saveDefaultConfig();
         KtpmplCfs::checkConfig($this, "2.0");
 

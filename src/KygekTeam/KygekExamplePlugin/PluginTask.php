@@ -25,7 +25,7 @@ class PluginTask extends Task {
         private int|float $delay
     ) {}
 
-    public function onRun(int $currentTick) {
+    public function onRun() : void {
         $message = str_ireplace("\$seconds", strval($this->delay / 20), $this->message);
         Server::getInstance()->broadcastMessage(($this->prefixEnabled ? ExamplePlugin::PREFIX : "") . $message);
     }

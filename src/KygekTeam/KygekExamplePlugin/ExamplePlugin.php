@@ -24,6 +24,8 @@ use pocketmine\utils\TextFormat as TF;
 
 class ExamplePlugin extends PluginBase implements Listener {
 
+    private const IS_DEV = true;
+
     public const PREFIX = TF::AQUA . "[KygekExamplePlugin] " . TF::RESET;
     public const INFO = TF::GREEN;
 
@@ -33,6 +35,10 @@ class ExamplePlugin extends PluginBase implements Listener {
 
     public function onEnable() : void {
         $this->saveDefaultConfig();
+        /** @phpstan-ignore-next-line */
+        if (self::IS_DEV) {
+            $this->getLogger()->warning("This plugin is running on a development version. There might be some major bugs. If you found one, please submit an issue in https://github.com/KygekTeam/KygekExamplePlugin/issues.");
+        }
         KtpmplCfs::checkConfig($this, "2.0");
 
         $this->getServer()->getPluginManager()->registerEvents($this, $this);

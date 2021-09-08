@@ -33,7 +33,7 @@ class ExamplePlugin extends PluginBase implements Listener {
 
     public function onEnable() {
         $this->saveDefaultConfig();
-        KtpmplCfs::checkConfig($this, "1.0");
+        KtpmplCfs::checkConfig($this, "2.0");
 
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->isEnabled = $this->getConfig()->get("enabled", true);

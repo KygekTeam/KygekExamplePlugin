@@ -8,7 +8,7 @@
 # (at your option) any later version.
 
 name: KygekExamplePlugin
-version: 1.0.0
+version: 2.0.0-BETA
 description: Example plugin to show coding styles and templates of KygekTeam plugins
 author: KygekTeam
 website: "https://github.com/KygekTeam/KygekExamplePlugin"

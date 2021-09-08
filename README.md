@@ -18,6 +18,7 @@ This example plugin broadcasts a message to the server whenever a player chats w
 ## ✅ Features
 
 - Uses the KygekTeam [PHP Coding Standards](https://docs.kygekteam.org/coding-standards/php.html) syntax
+- PocketMine-MP 4 support (Check out the [PM4 branch](https://github.com/KygekTeam/KygekExamplePlugin/tree/pm4))
 - Enable or disable through the `/exampleplugin` command or directly in the `config.yml` file
 - Broadcast prefix can be enabled or disabled through the `config.yml` file
 - Configurable broadcast message and delay
@@ -41,7 +42,6 @@ Follow the steps below if you want to test this plugin in your PocketMine-MP ser
 
 ## 🧾 Planned Features
 
-- PM4 support
 - More beginner-friendly code
 - Comments to explain what the plugin does for beginners
 

@@ -12,7 +12,7 @@ version: 1.0.0
 description: Example plugin to show coding styles and templates of KygekTeam plugins
 author: KygekTeam
 website: "https://github.com/KygekTeam/KygekExamplePlugin"
-api: 3.18.0
+api: 4.0.0
 extensions:
   Core: ">=8.0"
 main: KygekTeam\KygekExamplePlugin\ExamplePlugin

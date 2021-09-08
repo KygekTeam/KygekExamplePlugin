@@ -2,12 +2,14 @@
 build-by-default: true
 branches:
 - main
+- pm4
 projects:
   KygekExamplePlugin:
     path: ""
     libs:
     - src: KygekTeam/ktpmpl-cfs/ktpmpl-cfs
-      version: ^1.0
+      version: ^3.0
     lint:
       syntaxError: false
+      phpstan: false
 ...

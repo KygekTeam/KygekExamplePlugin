@@ -9,6 +9,7 @@ projects:
     libs:
     - src: KygekTeam/ktpmpl-cfs/ktpmpl-cfs
       version: ^3.0
+      branch: pm4-updatenotifier
     lint:
       syntaxError: false
       phpstan: false

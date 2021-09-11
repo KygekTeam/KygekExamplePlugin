@@ -33,7 +33,7 @@ class ExamplePlugin extends PluginBase implements Listener {
 
     private bool $isEnabled;
 
-    public function onEnable() : void {
+    protected function onEnable() : void {
         $this->saveDefaultConfig();
         /** @phpstan-ignore-next-line */
         if (self::IS_DEV) {

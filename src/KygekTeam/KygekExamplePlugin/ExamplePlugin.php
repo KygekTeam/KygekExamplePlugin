@@ -24,7 +24,7 @@ use pocketmine\utils\TextFormat as TF;
 
 class ExamplePlugin extends PluginBase implements Listener {
 
-    private const IS_DEV = true;
+    private const IS_DEV = false;
 
     public const PREFIX = TF::AQUA . "[KygekExamplePlugin] " . TF::RESET;
     public const INFO = TF::GREEN;

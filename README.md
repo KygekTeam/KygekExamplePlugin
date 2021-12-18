@@ -9,7 +9,7 @@ An example PocketMine-MP plugin to show coding styles of KygekTeam plugins and a
 
 ## ❓ Why This Plugin Exists
 
-This plugin serves as an example plugin for PocketMine-MP in addition to PMMP's PocketMine-MP [example plugin](https://github.com/pmmp/ExamplePlugin). This plugin also serves as an example of the application of KygekTeam plugin coding standards (for more information, visit the [PHP Coding Standards](https://docs.kygekteam.org/coding-standards/php.html) page in KygekTeam Docs).
+This plugin serves as an example plugin for PocketMine-MP in addition to PMMP's PocketMine-MP [example plugin](https://github.com/pmmp/ExamplePlugin). This plugin also serves as an example of the application of KygekTeam plugin coding standards (for more information, visit the [PHP Coding Standards](https://docs.kygek.team/coding-standards/php.html) page in KygekTeam Docs).
 
 ## ❔ What Does This Plugin Do
 
@@ -17,7 +17,7 @@ This example plugin broadcasts a message to the server whenever a player chats w
 
 ## ✅ Features
 
-- Uses the KygekTeam [PHP Coding Standards](https://docs.kygekteam.org/coding-standards/php.html) syntax
+- Uses the KygekTeam [PHP Coding Standards](https://docs.kygek.team/coding-standards/php.html) syntax
 - PocketMine-MP 4 support (Check out the [PM4 branch](https://github.com/KygekTeam/KygekExamplePlugin/tree/pm4))
 - Enable or disable through the `/exampleplugin` command or directly in the `config.yml` file
 - Broadcast prefix can be enabled or disabled through the `config.yml` file

@@ -22,6 +22,9 @@ delay: 1
 # Default broadcast message will be used if empty
 message: ""
 
+# Whether to warn if plugin is running on a development version (Recommended)
+warn-development: true
+
 
 ##### DANGER ZONE #####
 # Do not change this (Only for internal use)!

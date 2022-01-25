@@ -19,14 +19,19 @@ use pocketmine\Server;
 
 class PluginTask extends Task {
 
+    // Creates class properties from instantiation parameters (PHP 8.0 and up)
     public function __construct(
         private string $message,
         private bool $prefixEnabled,
         private int|float $delay
     ) {}
 
+    // Code to run when the task gets invoked
     public function onRun() : void {
+        // Replaces the $seconds variable with the delay of the task in seconds
+        // $this->delay is in ticks, so we need to convert it to seconds by dividing it by 20
         $message = str_ireplace("\$seconds", strval($this->delay / 20), $this->message);
+        // Broadcasts the message to the entire server
         Server::getInstance()->broadcastMessage(($this->prefixEnabled ? ExamplePlugin::PREFIX : "") . $message);
     }
 

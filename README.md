@@ -42,9 +42,6 @@ Follow the steps below if you want to test this plugin in your PocketMine-MP ser
 
 ## 🧾 Planned Features
 
-- More beginner-friendly code
-- Comments to explain what the plugin does for beginners
-
 You can request for a feature to be added in a future update [here](https://github.com/KygekTeam/KygekExamplePlugin/issues)!
 
 ## ➕ Additional Info

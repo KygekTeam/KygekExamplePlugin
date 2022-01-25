@@ -2,7 +2,7 @@
 
 /*
  * Example plugin to show coding styles and templates of KygekTeam plugins
- * Copyright (C) 2021 KygekTeam
+ * Copyright (C) 2021-2022 KygekTeam
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -39,7 +39,7 @@ class ExamplePlugin extends PluginBase implements Listener {
         if (self::IS_DEV) {
             $this->getLogger()->warning("This plugin is running on a development version. There might be some major bugs. If you found one, please submit an issue in https://github.com/KygekTeam/KygekExamplePlugin/issues.");
         }
-        KtpmplCfs::checkConfig($this, "2.0");
+        KtpmplCfs::checkConfig($this, "2.1");
 
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->isEnabled = $this->getConfig()->get("enabled", true);
